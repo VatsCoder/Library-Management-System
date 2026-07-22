@@ -2,7 +2,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken');
-const { use } = require('react');
 const {protect,adminOnly} = require('./middleware/auth')
 require('dotenv').config();
 
