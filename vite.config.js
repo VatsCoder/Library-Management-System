@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://library-management-system-2m2j.onrender.com',
+        target: 'http://localhost:3000',
         changeOrigin: true,
       },
     },

@@ -58,10 +58,10 @@ button{
 .home-nav{
   display: flex;
   align-content: center;
-  justify-content: space-evenly;
-  gap: 72vw;
+  justify-content: space-between;
   border-bottom:1px solid var(--mist);
   align-items: center;
+  padding:0 20px;
 }
 .brand{
   font-size: 20px;
@@ -85,29 +85,33 @@ button{
 .lib-head{
   display: grid;
   justify-items: center;
-  margin: 8vh 0;
+  margin: 6vh 0;
 }
 .lib-head h4{
   color: var(--brass);
 }
 .lib-head h1{
-  font-size: 3em;
+  font-size: clamp(2rem, 5vw, 3rem);
   text-align: center;
-  width: 50vw;
+  width: 100%;
+  max-width: 634px;
   line-height: 1.2;
   padding: 8px 0;
 }
 .lib-head p{
-  width: 31vw;
+  width: 86vw;
   text-align: center;
+  max-width: 525px;
 }
 .cards{
   display: flex;
   gap: 30px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .card-1,.card-2,.card-3 {
-  width: 19vw;
+  width: 70%;
+  max-width: 290px;
   border: 1px solid;
   line-height: 1.8;
   padding: 18px;
