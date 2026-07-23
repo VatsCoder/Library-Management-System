@@ -3,9 +3,13 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken');
 const {protect,adminOnly} = require('./middleware/auth')
+const cors = require("cors")
 require('dotenv').config();
 
 const app = express();
+app.use(cors({
+  origin: "https://athenaeumlibrary.vercel.app"
+}));
 app.use(express.json());
 const port = process.env.PORT
 
