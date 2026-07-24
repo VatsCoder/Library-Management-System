@@ -645,3 +645,23 @@ table.data-table {
   color: var(--rust);
   font-weight: 600;
 }
+@media (max-width: 480px) {
+  .tile-1{
+    width: 40vw;
+  }
+  .welcome{
+    width: 84%;
+  }
+  .welcome h1{
+    font-size: 20px;
+  }
+  .tile-2{
+    width: 60vw;
+  }
+  .tile-2 div{
+    width: 88%;
+  }
+  .tile-2 form{
+    width: 88%;
+  }
+}
