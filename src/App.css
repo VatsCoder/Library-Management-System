@@ -596,7 +596,7 @@ table.data-table {
   box-shadow: var(--shadow-sm);
 }
 .form-group { margin-bottom: 16px; }
-
+.preview{width: 100%;}
 .form-group label {
   display: block;
   font-size: 13px;
@@ -708,5 +708,19 @@ table.data-table {
   .addbook-btn{
     font-size: 12px;
     padding: 10px;
+  }
+  .issuebook-cont{
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 12px;
+  }
+  .issuebook-cont form select{
+    width: 100%;
+  }
+  .issuebook-cont form input{
+    width: 100%;
+  }
+  .form-group{
+      margin-bottom: 10px;
   }
 }

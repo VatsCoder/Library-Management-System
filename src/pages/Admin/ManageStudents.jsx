@@ -35,12 +35,12 @@ export default function ManageStudents(params) {
             <div className="page-header">
                 <div>
                     <span className="lib-dash-title">Librarian Console</span>
-                    <h1>Manage Students</h1>
+                    <h2>Manage Students</h2>
                 </div>
                 <button className="addbook-btn">+ Add Student</button>
             </div>
             {error && <div className="alert alert-error">{error}</div>}
-                <div className="card">
+                <div className="mngbk card">
                      {loading ? (
                         <p>Loading…</p>
                         ) : (

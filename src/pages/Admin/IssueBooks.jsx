@@ -75,7 +75,7 @@ export default function IssueBooks() {
                         <button type="submit">Issue book</button>
                     </form>
                 </div>
-                <div className="card">
+                <div className="preview card">
                     <h3 className="mb-16">Preview</h3>
                     {selectedBook && selectedStudent && form.dueDate? (<div>
                         <div className="form-group">

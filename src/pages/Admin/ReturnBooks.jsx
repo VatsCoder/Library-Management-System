@@ -43,7 +43,7 @@ export default function ReturnBooks(params) {
             <div className="page-header">
                 <div>
                     <span className="lib-dash-title">Librarian Console</span>
-                    <h1>Return Books</h1>
+                    <h2>Return Books</h2>
                     <span>All currently issued and overdue books.</span>
                 </div>
             </div>
