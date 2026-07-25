@@ -258,7 +258,7 @@ button{
   border-radius: 8px;
   padding: 7px 12px;
   width: 320px;
-  max-width: 40vw;                  /* shrinks on narrower screens */
+  max-width: 50vw;                  /* shrinks on narrower screens */
 }
 
 .topbar .search-box input {
@@ -663,5 +663,50 @@ table.data-table {
   }
   .tile-2 form{
     width: 88%;
+  }
+  .link-cont{
+    font-size: 0.8rem;
+  }
+  .topbar{
+    padding: 0 5px;
+    height: 50px;
+  }
+  .page-content{
+    padding: 12px 5px;
+  }
+  .admin-cards{
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .Side-cont{
+    display: none;
+  }
+  .card-stats{
+    width: 48%;
+    padding: 2px 10px;
+  }
+  .card-stats span{
+    font-size: 12px;
+  }
+  .card-stats-number{
+    font-size: 28px;
+    font-weight: 530; 
+  }
+  .grid{
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    padding: 12px;
+  }
+  .card-title-row{
+    margin-bottom: 6px;
+  }
+  .mngbk{
+    max-width: 97.3vw;
+  }
+  .addbook-btn{
+    font-size: 12px;
+    padding: 10px;
   }
 }

@@ -45,12 +45,12 @@ export default function ManageBooks() {
             <div className="page-header">
                 <div>
                     <span className="lib-dash-title">Librarian Console</span>
-                    <h1>Library Overview</h1>
+                    <h2>Library Overview</h2>
                 </div>
                 <button className="addbook-btn" onClick={() => setShowAddForm(true)}>+ Add Book</button>
             </div>
              {error && <div className="alert alert-error">{error}</div>}
-                <div className="card">
+                <div className="mngbk card">
                     {loading ? (
                         <p>Loading</p>
                     ):(
